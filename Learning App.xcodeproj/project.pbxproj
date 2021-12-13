@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29056C722762798600FF08E0 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29056C712762798600FF08E0 /* ContentViewRow.swift */; };
+		294EE7CE2767BE0C00766E67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294EE7CD2767BE0C00766E67 /* ContentView.swift */; };
 		295F23D82756A95B00A92555 /* Learning_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F23D72756A95B00A92555 /* Learning_AppApp.swift */; };
-		295F23DA2756A95B00A92555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F23D92756A95B00A92555 /* ContentView.swift */; };
+		295F23DA2756A95B00A92555 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F23D92756A95B00A92555 /* HomeView.swift */; };
 		295F23DC2756A96A00A92555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295F23DB2756A96A00A92555 /* Assets.xcassets */; };
 		295F23DF2756A96A00A92555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295F23DE2756A96A00A92555 /* Preview Assets.xcassets */; };
 		295F23EA2756A96B00A92555 /* Learning_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F23E92756A96B00A92555 /* Learning_AppTests.swift */; };
 		295F23F52756A96B00A92555 /* Learning_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F23F42756A96B00A92555 /* Learning_AppUITests.swift */; };
+		295F24092757EBC000A92555 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F24082757EBC000A92555 /* ContentModel.swift */; };
+		295F2427275A927400A92555 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F2426275A927400A92555 /* Model.swift */; };
+		295F242C2761247700A92555 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F242B2761247700A92555 /* HomeViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +38,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29056C712762798600FF08E0 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		294EE7CD2767BE0C00766E67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		295F23D42756A95B00A92555 /* Learning App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		295F23D72756A95B00A92555 /* Learning_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_AppApp.swift; sourceTree = "<group>"; };
-		295F23D92756A95B00A92555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		295F23D92756A95B00A92555 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		295F23DB2756A96A00A92555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		295F23DE2756A96A00A92555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		295F23E02756A96A00A92555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295F23E52756A96B00A92555 /* Learning AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		295F23E92756A96B00A92555 /* Learning_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_AppTests.swift; sourceTree = "<group>"; };
-		295F23EB2756A96B00A92555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295F23EB2756A96B00A92555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		295F23F02756A96B00A92555 /* Learning AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		295F23F42756A96B00A92555 /* Learning_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_AppUITests.swift; sourceTree = "<group>"; };
 		295F23F62756A96B00A92555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295F24082757EBC000A92555 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		295F2418275A922400A92555 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		295F2419275A922700A92555 /* style.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
+		295F2426275A927400A92555 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		295F242B2761247700A92555 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +107,15 @@
 		295F23D62756A95B00A92555 /* Learning App */ = {
 			isa = PBXGroup;
 			children = (
-				295F23D72756A95B00A92555 /* Learning_AppApp.swift */,
-				295F23D92756A95B00A92555 /* ContentView.swift */,
 				295F23DB2756A96A00A92555 /* Assets.xcassets */,
-				295F23E02756A96A00A92555 /* Info.plist */,
+				295F23EB2756A96B00A92555 /* Info.plist */,
+				295F23D72756A95B00A92555 /* Learning_AppApp.swift */,
+				295F24072757EB2300A92555 /* Models */,
 				295F23DD2756A96A00A92555 /* Preview Content */,
+				295F24102757FC7100A92555 /* Resources */,
+				295F24062757EB1B00A92555 /* ViewModels */,
+				295F24052757EAC200A92555 /* Views */,
+				295F23E02756A96A00A92555 /* Info.plist */,
 			);
 			path = "Learning App";
 			sourceTree = "<group>";
@@ -116,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				295F23E92756A96B00A92555 /* Learning_AppTests.swift */,
-				295F23EB2756A96B00A92555 /* Info.plist */,
 			);
 			path = "Learning AppTests";
 			sourceTree = "<group>";
@@ -128,6 +143,42 @@
 				295F23F62756A96B00A92555 /* Info.plist */,
 			);
 			path = "Learning AppUITests";
+			sourceTree = "<group>";
+		};
+		295F24052757EAC200A92555 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				294EE7CD2767BE0C00766E67 /* ContentView.swift */,
+				29056C712762798600FF08E0 /* ContentViewRow.swift */,
+				295F23D92756A95B00A92555 /* HomeView.swift */,
+				295F242B2761247700A92555 /* HomeViewRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		295F24062757EB1B00A92555 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				295F24082757EBC000A92555 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		295F24072757EB2300A92555 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				295F2426275A927400A92555 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		295F24102757FC7100A92555 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				295F2418275A922400A92555 /* data.json */,
+				295F2419275A922700A92555 /* style.html */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295F23DA2756A95B00A92555 /* ContentView.swift in Sources */,
+				295F23DA2756A95B00A92555 /* HomeView.swift in Sources */,
+				295F242C2761247700A92555 /* HomeViewRow.swift in Sources */,
+				294EE7CE2767BE0C00766E67 /* ContentView.swift in Sources */,
 				295F23D82756A95B00A92555 /* Learning_AppApp.swift in Sources */,
+				295F24092757EBC000A92555 /* ContentModel.swift in Sources */,
+				295F2427275A927400A92555 /* Model.swift in Sources */,
+				29056C722762798600FF08E0 /* ContentViewRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
